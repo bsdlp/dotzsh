@@ -28,6 +28,7 @@ alias c='clear'
 alias cls='clear && ls'
 alias homeconfig='git --git-dir=$HOME/.homeconfig.git/ --work-tree=$HOME'
 alias vime='vim -u ~/.vimencrypt -x'
+alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 
 #exports
 export PATH=$PATH:/home/jchen/.gem/ruby/1.9.1/bin
