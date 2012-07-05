@@ -21,7 +21,7 @@ alias cdc='cd;clear'
 alias sml='rlwrap sml'
 alias sudo='sudo '
 alias vit='vim ~/.todo.txt'
-alias ls='ls --color=auto --group-directories-first'
+alias ls='gls --color=auto --group-directories-first' #brew install coreutils (gnu vs bsd)
 alias l='ls'
 alias mv='mv -i'
 alias cp='cp -i'
@@ -30,11 +30,6 @@ alias c='clear'
 alias cls='clear && ls'
 alias homeconfig='git --git-dir=$HOME/.homeconfig.git/ --work-tree=$HOME'
 alias vime='vim -u ~/.vimencrypt -x'
-
-#package management aliases
-alias upgrade='sudo apt-get update && sudo apt-get upgrade'
-alias install='sudo apt-get install '
-alias purge='sudo apt-get purge '
 
 #exports
 export PATH=$PATH:/home/jchen/.gem/ruby/1.9.1/bin
